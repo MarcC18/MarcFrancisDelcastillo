@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineMax</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
+    <link rel="stylesheet" href="./homeStyle.css">
+</head>
+<body>
+    <!--edit navbar add search bar and change the navigation buttons to categories featured movies tv series anime kids 
+    make sure to link the ID 
+    dont remoove the logo and logomark -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <!-- Logo and Brand -->
+            <a class="navbar-brand" href="#index">CineMax
+                <img src="images/whiteLogo.png" alt="Logo" class="logo img-fluid mb-3" style="max-height: 25px; float: inline-end;">
+            </a>
+    
+            <!-- Toggler for mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navbar Links and Search Bar -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#slider">Featured</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#movies">Movies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tvSeries">TV Series</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Anime">Anime</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Kids">Kids</a></li>
+                </ul>
+                <!-- Search Bar -->
+                <form class="d-flex ms-3">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+                <!-- Logout Button -->
+                <button class="btn btn-outline-danger ms-3" data-bs-toggle="modal" data-bs-target="#logoutModal">Logout</button>
+            </div>
+        </div>
+    </nav>
+    <!--trailer section-->
+    <main class="container mt-5">
+            <!--Featured Tv show Slider-->
+        <contanier class="container-fuild">
+        <section id="tv-show-slider" class="pt-5" >
+        <h2 class="section-title">Popular TV Shows</h2>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide--six">
+                    <div class="caption">
+                        <span>Show 1</span>
+                        <h2>Stranger Things</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide--seven">
+                    <div class="caption">
+                        <span>Show 2</span>
+                        <h2>Breaking Bad</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide--eight">
+                    <div class="caption">
+                        <span>Show 3</span>
+                        <h2>The Mandalorian</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide--nine">
+                    <div class="caption">
+                        <span>Show 4</span>
+                        <h2>Game of Thrones</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide--ten">
+                    <div class="caption">
+                        <span>Show 5</span>
+                        <h2>Better Call Saul</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+</contanier>
+    </main>
+
+<!-- Featured  Movies-->
+    <main class="container mt-5">
+        <section id="slider" >
+            <h2 class="section-title">Top Movies</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide swiper-slide--one">
+                    <div class="caption">
+                      <span>Top Movie 1</span>
+                      <h2>Poor Things</h2>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swiper-slide--two">
+                    <div>
+                      <span>Top Movie 2</span>
+                      <h2>The Queen's Gambit</h2>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swiper-slide--three">
+                    <div class="caption">
+                      <span>Top Movie 3</span>
+                      <h2>Joker</h2>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swiper-slide--four">
+                    <div class="caption">
+                      <span>Top Movie 4</span>
+                      <h2>The Terminal</h2>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swiper-slide--five">
+                    <div class="caption">
+                      <span>Top Movie 5</span>
+                      <h2>Oppenheimer</h2>
+                    </div>
+                  </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+ 
+        
+        <main class="container mt-5">
+            <!-- Movies Section -->
+            <section id="movies" class="mt-5 ">
+                <h2 class="section-title">Movies</h2>
+                <div class="row ">
+                    <div class="col-md-3">
+                        <a href="https://mcloud.vvid30c.site/watch/?v41#SmlXOU1XR0I0V0xKRkRBbndKWGh6KzE3R2J3ZURXSjJOWTlLS0VvMXNrcTM0VTMrNVZVMEM5N1JTUldmMzFsTkNtRHN3QXlBRERZPQ">
+                            <div class="card image-placeholder" >
+                                <img src="images/Joker.jfif" class="card-img-top " alt="Movie Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Joker</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://whisperingauroras.comos.xyz/watch/?v21#OVN2c2lBWDRRWGx1SHhUdjFXWmpua3hhNDFocCtRWHhsNFRYN3U5YnhEMnZtNUgyb1cyeHE1bzNFQXVGbGZtNUczREt4N2oyWkxvPQ">
+                            <div class="card image-placeholder" >
+                                <img src="images/dp.jpg" class="card-img-top " alt="Movie Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Deadpool</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="movie-details.html">
+                            <div class="card image-placeholder" >
+                                <img src="images/it.jpg" class="card-img-top " alt="Movie Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">IT</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="movie-details.html">
+                            <div class="card image-placeholder" >
+                                <img src="images/paprika.jpg" class="card-img-top " alt="Movie Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Paprika</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+            
+    
+            <!-- TV Series Section -->
+            <section id="tvSeries" class="mt-5">
+                <h2 class="section-title">TV Series</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="tv-series-details.html">
+                            <div class="card">
+                                <img src="images/the Bear.jpg" class="card-img-top" alt="TV Series Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">The Bear</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="tv-series-details.html">
+                            <div class="card">
+                                <img src="images/strangerT.jpg" class="card-img-top" alt="TV Series Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Stranger Things</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="tv-series-details.html">
+                            <div class="card">
+                                <img src="images/the boys.jpg" class="card-img-top" alt="TV Series Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">The Boys</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="tv-series-details.html">
+                            <div class="card">
+                                <img src="images/The Queen's Gambit key art _ movie poster.jfif" class="card-img-top" alt="TV Series Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">The Queen's Gambit</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Anime Section -->
+            <section id="Anime" class="mt-5">
+                <h2 class="section-title">Anime</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="https://mcloud.vvid30c.site/watch/?v41#SmlXOU1XR0I0V0xKRkRBbndKWGh6KzE3R2J3ZURXSjJOWTlLS0VvMXNrcTM0VTMrNVZVMEM5N1JTUldmMzFsTkNtRHN3QXlBRERZPQ">
+                            <div class="card image-placeholder" >
+                                <img src="images/bath.jfif" class="card-img-top " alt="Movie Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">The Boy and the Heron</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://mcloud.vvid30c.site/watch/?v41#SmlXOU1XR0I0V0xKRkRBbndKWGh6KzE3R2J3ZURXSjJOWTlLS0VvMXNrcTM0VTMrNVZVMEM5N1JTUldmMzFsTkNtRHN3QXlBRERZPQ">
+                            <div class="card image-placeholder" >
+                                <img src="images/silentV.jpg" class="card-img-top " alt="Movie Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Silent Voice</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://mcloud.vvid30c.site/watch/?v41#SmlXOU1XR0I0V0xKRkRBbndKWGh6KzE3R2J3ZURXSjJOWTlLS0VvMXNrcTM0VTMrNVZVMEM5N1JTUldmMzFsTkNtRHN3QXlBRERZPQ">
+                            <div class="card image-placeholder" >
+                                <img src="images/Perfect Blue.jfif" class="card-img-top " alt="Movie Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Perfect Blue</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://mcloud.vvid30c.site/watch/?v41#SmlXOU1XR0I0V0xKRkRBbndKWGh6KzE3R2J3ZURXSjJOWTlLS0VvMXNrcTM0VTMrNVZVMEM5N1JTUldmMzFsTkNtRHN3QXlBRERZPQ">
+                            <div class="card image-placeholder" >
+                                <img src="images/spirited.jpg" class="card-img-top " alt="Movie Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Spirited Away</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Kids Section -->
+            <section id="Kids" class="mt-5">
+                <h2 class="section-title">Kids</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="kids-details.html">
+                            <div class="card">
+                                <img src="images/ratatuoille.jpg" class="card-img-top" alt="Kids Show Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Ratatouille</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="kids-details.html">
+                            <div class="card">
+                                <img src="images/gotff.jpg" class="card-img-top" alt="Kids Show Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Grave of the Fire Fly</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="kids-details.html">
+                            <div class="card">
+                                <img src="images/ponyo.jpg" class="card-img-top" alt="Kids Show Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Ponyo</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="kids-details.html">
+                            <div class="card">
+                                <img src="images/marnie.jpg" class="card-img-top" alt="Kids Show Title">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">When Marnie Was There</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+</main>
+
+<footer class="mt-5">
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h5>CineMax</h5>
+            <p>Your ultimate entertainment destination.</p>
+        </div>
+        <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h5>Follow Us</h5>
+            <ul class="list-unstyled">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <p>&copy; 2023 CineMax. All rights reserved.</p>
+        </div>
+    </div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script>
+<!--slider/swiper-->
+<script >
+  var swiper = new Swiper(".swiper", {
+  effect: "coverflow",
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 100,
+    modifier: 2,
+    slideShadows: true
+  },
+  spaceBetween: 60,
+  loop: true,
+  autoplay: {
+    delay: 2000, 
+    disableOnInteraction: false, // Keep autoplay on even if the user interacts with the slider
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true
+  }
+});
+</script>
+
+<!-- slider 2 -->
+<script >
+var tvShowSwiper = new Swiper(".swiper-tv", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 100,
+      modifier: 2,
+      slideShadows: true
+    },
+    spaceBetween: 60, // Adjusted space for landscape view
+    loop: true,
+    autoplay: {
+      delay: 2000, 
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    }
+});
+
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
